@@ -3,7 +3,7 @@ const path = require('path');
 
 const sourceFile = 'main.webp';
 const destinationDirectory = 'img';
-const numCopies = 10;
+const numCopies = 100000;
 
 async function copyImage() {
   try {
